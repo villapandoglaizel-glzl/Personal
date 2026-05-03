@@ -1,66 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glaizel Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="[fonts.googleapis.com](https://fonts.googleapis.com)">
+  <link rel="preconnect" href="[fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin>
+  <link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Poppins:wght@300;400&display=swap)" rel="stylesheet">
+  <script src="[kit.fontawesome.com](https://kit.fontawesome.com/a076d05399.js)" crossorigin="anonymous"></script>
 </head>
 <body>
 
-    <header class="navbar">
-        <div class="logo">HEADER</div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">PROJECT</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <nav>
+      <div class="logo"></div>
+      <div class="nav-links">
+        <a href="#home.html">HOME</a>
+        <a href="#project.html">PROJECT</a>
+        <a href="#about.html">ABOUT</a>
+        <a href="#contact.html">CONTACT</a>
+      </div>
+    </nav>
+  </header>
 
-    <section class="main">
-        <div class="text">
-            <h1>Hi, I’m Glaizel!</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            </p>
-        </div>
-
-        <div class="image">
-            <img src="glai.jpg.jpg" alt="Profile">
-        </div>
-    </section>
-
-    <section class="projects">
-    <h2>My Projects</h2>
-
-    <div class="project-container">
-
-        <div class="project-card">
-            <img src="project1.jpg" alt="Project 1">
-            <h3>Project One</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-
-        <div class="project-card">
-            <img src="project2.jpg" alt="Project 2">
-            <h3>Project Two</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-
-        <div class="project-card">
-            <img src="project3.jpg" alt="Project 3">
-            <h3>Project Three</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-
+  <!-- Introduction -->
+  <section id = "home.html" class="intro">
+    <div class="intro-text">
+      <h2>Hi, I’m Glaizel!</h2>
+      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
     </div>
-</section>
+    <img src="45989b81-7eef-48d0-9505-995abbd2a242.jpg" alt="Glaizel photo" class="profile-img">
+  </section>
 
+  <!-- About and Skills -->
+  <section id = "about.html" class="about-skills">
+    <div class="about">
+      <h3>About me</h3>
+      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+    </div>
+
+    <div class="skills">
+      <h3>Skills</h3>
+      <ul>
+        <li>Lorem ipsum dolor sit amet,</li>
+        <li>Lorem ipsum dolor sit amet,</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id = "project.html" class="projects">
+    <h3>Projects</h3>
+    <div class="project-item">
+      <img src="anime1.jpg" alt="project 1">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    </div>
+    <div class="project-item">
+      <img src="anime2.jpg" alt="project 2">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    </div>
+  </section>
+
+  <!-- CONTACTS SECTION -->
+<section id = "contact.html" class="contacts-section">
+  <h2 class="contacts-title">Contacts</h2>
+
+  <div class="contacts-container">
+    <div class="contact-box">
+      <img src="c:\Users\191846\Downloads\fb.png" alt="Facebook" class="contact-img">
+      <p class="contact-text">Glaizel Villapando</p>
+    </div>
+
+    <div class="contact-box">
+      <img src="c:\Users\191846\Downloads\GLAI\gmail.jpg" alt="Email" class="contact-img">
+      <p class="contact-text">glaizel@gmail.com</p>
+    </div>
+
+    <div class="contact-box">
+      <img src="c:\Users\191846\Downloads\GLAI\ig.jpg" alt="Instagram" class="contact-img">
+      <p class="contact-text">@glaizelvillapando</p>
+    </div>
+
+    <div class="contact-box">
+      <img src="c:\Users\191846\Downloads\GLAI\phonenum.jpg" alt="Phone" class="contact-img">
+      <p class="contact-text">+63 955 519 6772</p>
+    </div>
+  </div>
+</section>
 </body>
 </html>
